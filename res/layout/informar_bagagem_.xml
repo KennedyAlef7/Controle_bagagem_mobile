@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo do voo" />
+
+    <TextView
+        android:id="@+id/txtcod_voo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade de bagagens" />
+
+    <TextView
+        android:id="@+id/txtquantidade_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" - " />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite o codigo da bagagem" />
+
+    <EditText
+        android:id="@+id/edt_cod_bagagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnInsere_bagagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inserir" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:layout_gravity="center"
+        android:src="@drawable/bagagem" />
+
+</LinearLayout>
